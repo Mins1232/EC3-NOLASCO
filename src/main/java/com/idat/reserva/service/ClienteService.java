@@ -6,8 +6,6 @@ import com.idat.reserva.dto.ClienteDTORequest;
 import com.idat.reserva.dto.ClienteDTOResponse;
 
 
-
-
 public interface ClienteService {
 	void guardarClientes(ClienteDTORequest cliente);
 	void actualizarClientes(ClienteDTORequest cliente);

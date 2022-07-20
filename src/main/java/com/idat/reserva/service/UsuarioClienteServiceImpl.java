@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.stereotype.Service;
 
 import com.idat.reserva.dto.UsuarioClienteDTORequest;
 import com.idat.reserva.dto.UsuarioClienteDTOResponse;
 import com.idat.reserva.model.Cliente;
 import com.idat.reserva.model.UsuarioCliente;
 import com.idat.reserva.repository.UsuarioClienteRepository;
-
+@Service
 public class UsuarioClienteServiceImpl implements UsuarioClienteService {
 
 	@Autowired

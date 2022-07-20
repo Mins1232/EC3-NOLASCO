@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.idat.reserva.dto.HospitalDTORequest;
 import com.idat.reserva.dto.HospitalDTOResponse;
 import com.idat.reserva.model.Hospital;
 import com.idat.reserva.repository.HospitalRepository;
-
+@Service
 public class HospitalServiceImpl implements HospitalService {
 
 	@Autowired
